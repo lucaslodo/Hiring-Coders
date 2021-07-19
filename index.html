@@ -10,7 +10,6 @@
     <title>Black Friday Lucas Lodo</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="script/script.js"></script>
 
 </head>
 
@@ -43,31 +42,28 @@
             </div>
 
             <div class="flex-item-right">
-                <form>
-                    <input type='text' id='chave'>
-                    <input type='button' id='salvar' value='Salvar'>
-                  </form>
-                  
-                  <p id='mostrar'></p>
-                  
-                  <script>    
-                      var entrada = document.getElementById('chave');
-                  
-                      var paragrafo = document.getElementById('mostrar');
-                  
-                      document.getElementById('salvar').addEventListener('click', function() {
-                        localStorage.chave = entrada.value;
-                  
-                        mostrar.innerText = localStorage.chave;
-                      });
-                  </script>
-                  
+
+                
+                <form id="cadastro" method="post">
+                    <input id="email" name="email" placeholder="E-mail">
+                    <button id="btn-form">CADASTRE-SE</button>
+                </form>
+            
+
 
             </div>
 
         </div>
 
     </section>
+    <footer>
+
+        <p>Todos os direitos reservados a <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5519983303116">Lucas
+                Lodo</a> </p>
+
+    </footer>
+
+    <script src="/script/script.js" type="text/javascript"></script>
 
 
 </body>
