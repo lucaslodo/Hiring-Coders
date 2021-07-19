@@ -1,0 +1,52 @@
+body {
+
+    background-image: url(..//img/background-black.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+img {
+
+width: 100%;
+height: auto;
+
+}
+
+h1 {
+margin-top: 50px;
+text-align: center;
+color: #fff;
+font-size: 50px;
+font-style: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+    margin-top: 1px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .flex-item-left {
+        flex: 50%;
+      }
+      
+      .flex-item-right {
+        flex: 50%;
+      }
+      
+      @media (max-width: 800px) {
+        .flex-item-right, .flex-item-left {
+          flex: 100%; }
+
+    }
