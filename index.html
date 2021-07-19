@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Black Friday Hiring Coders">
+    <meta name="author" content="Lucas Lodo - lucasbapt87@gmail.com">
+
+    <title>Black Friday Lucas Lodo</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="script/script.js"></script>
+
+</head>
+
+<body>
+
+
+    <header>
+        <div>
+
+            <img src="img/Black-Friday-header.jpg" alt="Black Friday" title="Black Friday">
+
+        </div>
+    </header>
+
+    <main>
+        <div>
+
+            <h1><span>CADASTRE-SE</span></h1>
+            <h2>
+                <p>PARA RECEBER TODAS AS NOSSAS OFERTAS!</p>
+            </h2>
+
+        </div>
+    </main>
+
+    <section>
+        <div class="flex-container">
+            <div class="flex-item-left">
+                <img src="img/Black-Friday-center.png" alt="Presente Black Friday" title="Presente Black Friday">
+            </div>
+
+            <div class="flex-item-right">
+                <form>
+                    <input type='text' id='chave'>
+                    <input type='button' id='salvar' value='Salvar'>
+                  </form>
+                  
+                  <p id='mostrar'></p>
+                  
+                  <script>    
+                      var entrada = document.getElementById('chave');
+                  
+                      var paragrafo = document.getElementById('mostrar');
+                  
+                      document.getElementById('salvar').addEventListener('click', function() {
+                        localStorage.chave = entrada.value;
+                  
+                        mostrar.innerText = localStorage.chave;
+                      });
+                  </script>
+                  
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
