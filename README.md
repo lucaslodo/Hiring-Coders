@@ -1,7 +1,13 @@
-# Hiring-Coders
+PROJETO LANDING PAGE 
 
-Olá meu nome é Lucas Lodo
+Projeto para o programa #hiringcoders da Gama Academy 
 
-Estou estudando no Hiring Coders 2021 e essa é minha Landing Page.
+Landing page para capturar e-mails e salvar em local storage.
 
-Obrigado por visitar!
+
+HOSPEDADO NA NETLIFY
+
+https://epic-banach-cfca07.netlify.app/
+
+
+HTML - JS - CSS
