@@ -4,10 +4,6 @@ Projeto para o programa #hiringcoders da Gama Academy
 
 Landing page para capturar e-mails e salvar em local storage.
 
-
-HOSPEDADO NA NETLIFY
+Html - CSS - Js
 
 https://epic-banach-cfca07.netlify.app/
-
-
-HTML - JS - CSS
